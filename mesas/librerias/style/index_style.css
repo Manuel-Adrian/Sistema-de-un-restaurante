@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+}
+
+.acordeon input{
+	display: none;
+	
+
+
+}
+.acordeon-titulo{
+	display: block;
+	padding: 15px;
+    
+	padding-left: 70%;
+	background: #6576B4; 
+	color:#fff;
+	font-size: 20px;
+	font-family: "Arial";
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+.acordeon-subtitulo{
+
+	background: #92D5B3; 
+	display: block;
+	padding: 15px;
+     height: auto;
+     width: 75%;
+    
+    margin-left: 13%; 
+	padding-left: 50px;
+	margin-top: 10px;
+	color:#fff;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: "Arial";
+	font-weight: bold;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+
+}
+
+.acordeon-subtituloo{
+
+	background: #23897F; 
+	display: block;
+	padding: 15px;
+     height: auto;
+	padding-left: 15px;
+	margin-top: 10px;
+	color:#fff;
+	font-size: 20px;
+	text-decoration:none;
+	font-family: "Arial";
+	font-weight: bold;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+	border-bottom: 1px solid #fff;
+
+}
+
+
+
+
+
+.acordeon-contenido{
+
+
+	display: block;
+
+margin-left: 17%;
+
+	
+
+
+}
+
+
+
+
+.acordeon input:checked ~ .acordeon-contenido{
+	height: auto;
+	width: auto;
+	
+	
+background: #fff; 
+
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

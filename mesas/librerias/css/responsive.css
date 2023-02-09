@@ -1,0 +1,28 @@
+principal{
+	padding: 10px;
+	background: white;
+	overflow: hidden;
+}
+
+izquierda{
+	float: left;
+	padding: 10px;
+	
+	width: 300px;
+	margin: 40px;
+}
+
+centro{
+	float: center;
+	padding: 10px;
+	width: 300px;
+	margin: 40px;
+}
+
+derecha {
+	float: right;
+	padding: 10px;
+	width: 300px;
+	margin: 40px;
+	
+}

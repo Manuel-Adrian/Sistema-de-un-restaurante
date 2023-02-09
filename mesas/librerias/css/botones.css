@@ -1,0 +1,72 @@
+.botonverde {
+    background-color: #BBCDCB; /* botones platillos */
+    border: none;
+    color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.botongreen {
+    background-color:#2FB2A5; /* categorias */
+
+    display: block;
+    
+    color:#fff;
+    font-size: 20px;
+    text-decoration:none;
+    font-family: "Arial";
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     line-height: 50px;
+    font-size: 15px;
+    align-items: center; align-content: center;  text-align: center
+}
+
+
+
+
+.botonresponsive{
+   background-color: #2FB2A5; /* categorias */
+    border: none;
+    color: white;
+    margin: 3px;
+  
+     font-size: 30px;
+    
+     line-height: 50px;
+
+    
+}
+
+
+.botongreen:hover {
+  background:#BC8E00;
+  font-style: white;
+  text-decoration: none 
+  text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white; font-family: arial; text-decoration: none
+}
+
+.submenu1 {
+    background-color: #23897F; /* submenus */
+    border: none;
+    color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}

@@ -1,0 +1,15 @@
+.btn-descargar{
+    background: #FA8072;
+	display: block;
+	padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+
+.btn-descargar:hover{
+	background: rgb(250,93,75);
+	
+}
