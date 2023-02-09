@@ -3,9 +3,9 @@
 
 	$servidor = "localhost";
 	$nombre_usuario = "root";
-	$contrasena = "123456";
+	$contrasena = "";
 
-	$conexion = new $mysqli($servidor, $nombre_usuario, $contrasena);
+	$conexion = new mysqli($servidor, $nombre_usuario, $contrasena);
 
 	if($conexion->connect_error){
 		die("Conexion fallida: ".$conexion->connect_error);
@@ -16,6 +16,6 @@
 	if($conexion->query($sql) === true){
 		die("Base de datos creada exitosamente");
 	}else{
-		die("Error al crear la base de datos");
+		die("Error al crear la base de datos, mensaje: ".$conexion->error);
 	}
 ?>
